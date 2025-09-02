@@ -1,15 +1,15 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "ThumbnailMaker.h"
+#include "ActorImageMaker.h"
 
-#define LOCTEXT_NAMESPACE "FThumbnailMakerModule"
+#define LOCTEXT_NAMESPACE "FActorImageMakerModule"
 
-void FThumbnailMakerModule::StartupModule()
+void FActorImageMakerModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 }
 
-void FThumbnailMakerModule::ShutdownModule()
+void FActorImageMakerModule::ShutdownModule()
 {
 	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
 	// we call this function before unloading the module.
@@ -17,4 +17,4 @@ void FThumbnailMakerModule::ShutdownModule()
 
 #undef LOCTEXT_NAMESPACE
 	
-IMPLEMENT_MODULE(FThumbnailMakerModule, ThumbnailMaker)
+IMPLEMENT_MODULE(FActorImageMakerModule, ActorImageMaker)

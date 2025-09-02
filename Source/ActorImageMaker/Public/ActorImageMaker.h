@@ -4,7 +4,7 @@
 
 #include "Modules/ModuleManager.h"
 
-class FThumbnailMakerModule : public IModuleInterface
+class FActorImageMakerModule : public IModuleInterface
 {
 public:
 
